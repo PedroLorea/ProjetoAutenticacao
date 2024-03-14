@@ -28,3 +28,15 @@ C:\Users\pedro\OneDrive\Área de Trabalho\ProjetoAutenticacao\obj\Debug\net8.0\r
 C:\Users\pedro\OneDrive\Área de Trabalho\ProjetoAutenticacao\obj\Debug\net8.0\ProjetoAutenticacao.pdb
 C:\Users\pedro\OneDrive\Área de Trabalho\ProjetoAutenticacao\obj\Debug\net8.0\ProjetoAutenticacao.genruntimeconfig.cache
 C:\Users\pedro\OneDrive\Área de Trabalho\ProjetoAutenticacao\obj\Debug\net8.0\ref\ProjetoAutenticacao.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\ProjetoAutenticacao\obj\Debug\net8.0\ProjetoAutenticacao.csproj.AssemblyReference.cache
+C:\Users\pedro\OneDrive\Área de Trabalho\ProjetoAutenticacao\obj\Debug\net8.0\ProjetoAutenticacao.sourcelink.json
+C:\Users\pedro\OneDrive\Área de Trabalho\ProjetoAutenticacao\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\ProjetoAutenticacao\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\ProjetoAutenticacao\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\ProjetoAutenticacao\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\ProjetoAutenticacao\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\ProjetoAutenticacao\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\ProjetoAutenticacao\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\ProjetoAutenticacao\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\ProjetoAutenticacao\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\ProjetoAutenticacao\obj\Debug\net8.0\ProjetoA.8A9DB8D2.Up2Date

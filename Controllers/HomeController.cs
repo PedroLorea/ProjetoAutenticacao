@@ -1,31 +1,32 @@
 using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ProjetoAutenticacao.Models;
 
 namespace ProjetoAutenticacao.Controllers;
 
-public class HomeController : Controller
+[ApiController]
+public class HomeController : ControllerBase
 {
-    private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
+    [HttpGet]
+    [Route("anonymous")]
+    [AllowAnonymous]
+    public string Anonymous() => "Anônimo";
 
-    public IActionResult Index()
-    {
-        return View();
-    }
+    [HttpGet]
+    [Route("authenticated")]
+    [Authorize]
+    public string Authenticated() => $"Autenticado - {User.Identity.Name}";
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
+    [HttpGet]
+    [Route("animal")]
+    [Authorize(Roles = "Animal,Manager")]
+    public string Employee() => "Animal";
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-    }
+    [HttpGet]
+    [Route("manager")]
+    [Authorize(Roles = "Manager")]
+    public string Manager() => "Manager";
+
 }
